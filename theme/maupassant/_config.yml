@@ -1,0 +1,47 @@
+fancybox: true ## If you want to use fancybox please set the value to true
+duoshuo: ## Your duoshuo_shortname, e.g. username
+disqus: metromancn## Your disqus_shortname, e.g. username
+google_search: true ## Use Google search, true/false
+baidu_search: ## Use Baidu search, true/false
+swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
+tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
+google_analytics: UA-16539746-83## Your Google Analytics tracking id, e.g. UA-42425684-2
+baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
+shareto: false ## If you want to use the share button please set the value to true
+
+menu:
+  - page: home
+    directory: .
+    icon: icon-home
+  - page: archive
+    directory: archives/
+    icon: icon-archive
+  - page: about
+    directory: about/
+    icon: icon-about
+  - page: rss
+    directory: atom.xml
+    icon: icon-rss
+
+widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
+  - search
+  - category
+  - tag
+  - recent_posts
+  - recent_comments
+  - links
+
+links:
+  - title: 地铁通-MetroMan(App Store)
+    url: https://itunes.apple.com/cn/app/id466351433
+  - title: 地铁通-MetroMan(Google Play)
+    url: https://play.google.com/store/apps/details?id=com.xinlukou.metroman
+  - title: MetroMan
+    url: http://www.metroman.cn
+
+# Static files
+js: js
+css: css
+
+# Theme version
+version: 0.0.0
